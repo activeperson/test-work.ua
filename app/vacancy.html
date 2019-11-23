@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Vacancy</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="vacancy">
+
+
+<header class="header">
+  <div class="header__wrapper container">
+    <div class="header__top-line hidden-xs">
+      <a href="javascript:void(0);">Соискателю</a>
+    </div>
+    <nav class="navbar">
+      <div class="navbar-header">
+        <a href="index.html"></a>
+        <span class="hidden-xs">Для роботодавців</span>
+      </div>
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="#">
+            <span class="hidden-xs">Найти вакансии</span>
+            <i class="search visible-xs"></i>
+            <span class="visible-xs">Вакансии</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="hidden-xs">Добавить вакансию</span>
+            <i class="summary visible-xs"></i>
+            <span class="visible-xs">Резюме</span>
+          </a>
+        </li>
+        <li class="current"><a href="#">
+            <span class="hidden-xs">Диван-кафе</span>
+            <i class="login visible-xs"></i>
+            <span class="visible-xs">Войти</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="gradient-line"></div>
+</header>
+
+
+<section class="vacancies">
+  <div class="vacancies__wrapper container">
+    <div class="vacancies__link">
+      <a href="javascript:void(0);">Личный раздел</a>
+    </div>
+    <h1>Вакансии и отклики<span class="popup ml10" data-content="Какая-то информация..."></span></h1>
+
+    <div class="edit-buttons">
+      <div class="edit-buttons__left-col">
+        <a class="btn" href="javascript:void(0);">Создать вакансию</a>
+        <span class="dropdown">
+          <a class="dropdown-toggle" id="dropdownInfo" data-toggle="dropdown" aria-expanded="false">Доступно 20 из 942
+            публикаций</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownInfo">
+            <li>
+              <div class="title">Standard</div>
+              <div class="count">14 из 23</div>
+            </li>
+            <li>
+              <div class="title">
+                Standard Plus возобновляемая
+                <div class="text-gray">До 13.09.18</div>
+              </div>
+              <div class="count">81 из 456</div>
+            </li>
+            <li>
+              <div class="title">Premium</div>
+              <div class="count">10 из 128</div>
+            </li>
+            <li>
+              <div class="title">Анонимная</div>
+              <div class="count">10 из 13</div>
+            </li>
+            <li class="another-link">
+              <ul>
+                <li><a href="javascript:void(0);">Подробнее о публикациях</a></li>
+                <li><a href="javascript:void(0);">Купить публикации от 249 грн</a></li>
+              </ul>
+            </li>
+          </ul>
+        </span>
+      </div>
+      <div class="edit-buttons__right-col">
+        <span class="vacancies__link"><a href="javascript:void(0);">Только размещенные</a> <span
+            class="search"></span></span>
+        <div style="clear: both;"></div>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="vacancies__list">
+      <a class="list__name" data-toggle="collapse" href="#collapse1">Андрей
+        Боровик</a>
+        <span class="popup pl35" data-content="Какая-то информация...">5</span>
+      <div class="collapse in" id="collapse1">
+        <div class="cart container">
+          <div class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
+            <div class="cart__title"> <a href="javascript:void(0);">Артист по работе с клиентами,</a><span class="price"> 15000
+                грн*</span></div>
+            <div class="cart__city">Днепр</div>
+            <div class="cart__privilege-action">
+              <span class="cart__tag premium">Premium до 22 октября</span>
+              <span class="cart__date text-gray">10 октября – 10 ноября</span>
+            </div>
+            <ul class="cart__list-links">
+              <li><a href="javascript:void(0);">Подобрать резюме</a></li>
+              <li class="dot">&nbsp;.&nbsp;</li>
+              <li><a href="javascript:void(0);">Продлить Premium</a></li>
+              <li class="dot">&nbsp;.&nbsp;</li>
+              <li><a href="javascript:void(0);">Обновить дату публикации</a></li>
+              <li class="dot">&nbsp;.&nbsp;</li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" id="dropdownMore" data-toggle="dropdown" aria-expanded="false">Еще</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMore">
+                  <li><a href="javascript:void(0);">Редактировать</a></li>
+                  <li><a href="javascript:void(0);">Скачать</a></li>
+                  <li><a href="javascript:void(0);">Расспечатать</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <a href="javascript:void(0);" class="cart__feedback">
+              <div class="count">378 <span>23</span> </div>
+              <div class="labels"><span>откликов</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vacancies__list">
+        <a class="list__name" data-toggle="collapse" href="#collapse2">Иван
+          Прозоров</a>
+          <span class="popup pl35" data-content="Какая-то информация...">2</span>
+        <div class="collapse" id="collapse2">
+          <div class="cart container">
+            <div class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
+              <div class="cart__title"> <a href="javascript:void(0);">Программист,</a><span class="price"> 45000
+                  грн*</span></div>
+              <div class="cart__city">Харьков</div>
+              <div class="cart__privilege-action">
+                <span class="cart__tag premium">Premium до 13 октября</span>
+                <span class="cart__date text-gray">5 октября – 13 ноября</span>
+              </div>
+              <ul class="cart__list-links">
+                <li><a href="javascript:void(0);">Подобрать резюме</a></li>
+                <li class="dot">&nbsp;.&nbsp;</li>
+                <li><a href="javascript:void(0);">Продлить Premium</a></li>
+                <li class="dot">&nbsp;.&nbsp;</li>
+                <li><a href="javascript:void(0);">Обновить дату публикации</a></li>
+                <li class="dot">&nbsp;.&nbsp;</li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" id="dropdownMore" data-toggle="dropdown" aria-expanded="false">Еще</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMore">
+                    <li><a href="javascript:void(0);">Редактировать</a></li>
+                    <li><a href="javascript:void(0);">Скачать</a></li>
+                    <li><a href="javascript:void(0);">Расспечатать</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <a href="javascript:void(0);" class="cart__feedback">
+                <div class="count">223 <span>54</span> </div>
+                <div class="labels"><span>откликов</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="vacancies__list">
+        <a class="list__name" data-toggle="collapse" href="#collapse3">Алексей
+          Смирнов</a><span class="popup pl35" data-content="Какая-то информация...">4</span>
+        <div class="collapse" id="collapse3">
+          <div class="cart container">
+            <div class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
+              <div class="cart__title"> <a href="javascript:void(0);">Артист по работе с клиентами</a><span class="price">, 19000
+                  грн*</span></div>
+              <div class="cart__city">Киев</div>
+              <div class="cart__privilege-action">
+                <span class="cart__tag premium">Premium до 11 октября</span>
+                <span class="cart__date text-gray">5 октября – 8 ноября</span>
+              </div>
+              <ul class="cart__list-links">
+                <li><a href="javascript:void(0);">Подобрать резюме</a></li>
+                <li class="dot">&nbsp;.&nbsp;</li>
+                <li><a href="javascript:void(0);">Продлить Premium</a></li>
+                <li class="dot">&nbsp;.&nbsp;</li>
+                <li><a href="javascript:void(0);">Обновить дату публикации</a></li>
+                <li class="dot">&nbsp;.&nbsp;</li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" id="dropdownMore" data-toggle="dropdown" aria-expanded="false">Еще</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMore">
+                    <li><a href="javascript:void(0);">Редактировать</a></li>
+                    <li><a href="javascript:void(0);">Скачать</a></li>
+                    <li><a href="javascript:void(0);">Расспечатать</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="cart__feedback">
+                <div class="count">777 <span>15</span> </div>
+                <div class="labels"><span>откликов</span></div>
+              </div>
+            </div>
+                   
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+</section>
+
+
+<footer class="footer container">
+  <div class="row">
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+      <div class="dropdown">
+        <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Русский
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a href="javascript:void(0);">Українська</a></li>
+          <li class="current"><a href="javascript:void(0);">Русский</a></li>
+          <li><a href="javascript:void(0);">English</a></li>
+        </ul>
+      </div>
+      <ul class="footer__list-links">
+        <li><a href="javascript:void(0);">Ресурсы</a></li>
+        <li class="dot">&nbsp;.&nbsp;</li>
+        <li><a href="javascript:void(0);">Контакты</a></li>
+        <li class="dot">&nbsp;.&nbsp;</li>
+        <li><a href="javascript:void(0);">О нас</a></li>
+        <li class="dot">&nbsp;.&nbsp;</li>
+        <li><a href="javascript:void(0);">Новости сайта </a></li>
+        <li class="dot">&nbsp;.&nbsp;</li>
+        <li><a href="javascript:void(0);">Условия использования</a></li>
+      </ul>
+      <div class="footer__copy text-gray">© 2006–2019 Work.ua. Сайт поиска работы №1 в Украине.</div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-right">
+      <a href="javascript:void(0);" class="footer__button">Соискателю</a>
+    </div>
+  </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="text-gray company-development">Сделано в компании «<span>Реактор</span>».</div>
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <ul class="footer__list-links">
+              <li><a href="javascript:void(0);">Образование</a></li>
+              <li class="dot">&nbsp;.&nbsp;</li>
+              <li><a href="javascript:void(0);">Тренинги</a></li>
+              <li class="dot">&nbsp;.&nbsp;</li>
+              <li><a href="javascript:void(0);">Клавиатурный тренажер</a></li>
+              <li class="dot">&nbsp;.&nbsp;</li>
+              <li><a href="javascript:void(0);">Typing tutor</a></li>
+            </ul>
+      </div>
+    </div>
+</footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
