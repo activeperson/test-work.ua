@@ -1,1 +1,2 @@
-# test-work.ua
+# npm i
+# gulp
