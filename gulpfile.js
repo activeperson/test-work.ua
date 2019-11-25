@@ -9,7 +9,7 @@ let gulp = require('gulp'),
 
 
 gulp.task('clean', async function(){
-  // del.sync('dist')
+  del.sync('dist')
 })
 
 gulp.task('scss', function(){
